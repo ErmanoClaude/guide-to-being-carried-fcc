@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Baloo 2", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.headings, .headings li {
+  list-style-type: none; 
+}
+
+header {
+  font-weight: 450;
+  font-size: 1.3rem;
+  white-space: nowrap;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  border-right: 3px solid grey;
+  width: 25%;
+}
+
+#main-doc {
+  margin-left: 25%;
+}
