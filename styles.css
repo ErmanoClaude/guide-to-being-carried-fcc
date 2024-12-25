@@ -4,13 +4,7 @@
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 
-=======
-html {
-  font-size: 16px;
-}
->>>>>>> bb35788b7e1b822c27ab2754ada8545e841687f5
 
 body {
   font-family: "Baloo 2", serif;
@@ -24,13 +18,8 @@ body {
 }
 
 header {
-<<<<<<< HEAD
   font-weight: 500;
   font-size: 1.4rem;
-=======
-  font-weight: 450;
-  font-size: 1.3rem;
->>>>>>> bb35788b7e1b822c27ab2754ada8545e841687f5
   white-space: nowrap;
 }
 
@@ -40,26 +29,28 @@ header {
   left: 0;
   height: 100vh;
   border-right: 3px solid grey;
-<<<<<<< HEAD
   width: 400px;
-=======
-  width: 25%;
->>>>>>> bb35788b7e1b822c27ab2754ada8545e841687f5
 }
 
 #main-doc {
   margin-left: 25%;
-<<<<<<< HEAD
 }
 
 .sub-heading {
-  
   padding: 20px;
   border-bottom: 1px solid black;
 }
 
 .sub-heading a {
   text-decoration: none;
-=======
->>>>>>> bb35788b7e1b822c27ab2754ada8545e841687f5
+}
+
+.sub-heading a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sub-heading a:visited {
+  text-decoration: none;
+  color: inherit;
 }
