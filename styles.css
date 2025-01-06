@@ -66,6 +66,7 @@ nav header {
   white-space: nowrap;
 }
 
-ul {
-  list-style-position: inside;
+article ul {
+  list-style: disc;
+  padding-left: 35px;
 }
