@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Baloo 2", serif;
@@ -12,11 +15,25 @@ body {
   font-style: normal;
 }
 
+.main-section {
+  scroll-margin-top: 20px;
+  margin-top: 30px;
+}
+
+.main-section:first-of-type {
+  margin-top: 10px !important;
+}
+
+.main-section:last-of-type {
+  margin-bottom: 40px;
+}
+
+
 #navbar {
   position: fixed;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 100%;
   border-right: 3px solid grey;
   width: 400px;
 }
@@ -49,6 +66,7 @@ body {
 
 #main-doc {
   margin-left: 420px;
+  padding-right: 10px;
 }
 
 
@@ -69,4 +87,36 @@ nav header {
 article ul {
   list-style: disc;
   padding-left: 35px;
+}
+
+.code {
+  background-color: lightgrey;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 1179px) {
+  
+  html {
+    font-size: 13px;
+  }
+  
+  #navbar {
+    position: static;
+    width: 100%;
+    border-right: none;
+  }
+  
+  #main-doc {
+    margin-left: 0;
+    padding-left: 10px;
+    
+  }
+  
 }
