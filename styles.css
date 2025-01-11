@@ -42,11 +42,24 @@ body {
   border-bottom: 1px solid black;
 }
 
+a {
+  all: unset;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  all: unset; /* Resets all styles for pseudo-classes as well */
+}
 .sub-heading a {
   padding: 13px 20px;
   text-decoration: none;
   display: block; /* to make the whole <a> span <li> block */ 
   font-size: 1.1rem;
+  cursor: pointer;
 }
 
 .sub-heading a:hover {
@@ -54,10 +67,6 @@ body {
   color: inherit;
 }
 
-.sub-heading a:visited {
-  text-decoration: none;
-  color: inherit;
-}
 
 .headings, .headings li {
   list-style-type: none; 
@@ -93,6 +102,16 @@ article ul {
   background-color: lightgrey;
   padding: 5px;
   border-radius: 3px;
+}
+
+code { 
+  padding-left: 10px;
+  padding-right: 10px
+}
+
+#Give_Credit .code {
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 p {
